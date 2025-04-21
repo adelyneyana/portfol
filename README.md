@@ -1,30 +1,48 @@
 # Modern Dashboard
 
-A sleek and modern dashboard application built with Next.js, TypeScript, and Tailwind CSS.
+A beautiful and modern dashboard built with Next.js and Tailwind CSS.
 
-## Features
+## File Structure
 
-- 🎨 Modern and responsive design
-- ⚡ Fast and optimized performance
-- 🎭 Smooth animations with Framer Motion
-- 📱 Mobile-friendly interface
-- 🎯 Interactive components
-- 🌈 Beautiful gradients and transitions
+```
+src/
+├── app/
+│   ├── components/
+│   │   └── Header.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   └── layout.tsx
+├── public/
+│   ├── logo.png
+│   ├── profile.png
+│   └── car.png
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+```
 
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Run the development server:
+2. Run the development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Features
+
+- Responsive header with navigation
+- Sidebar with icons
+- Hero section with gradient background
+- Project cards grid
+- Beautiful UI with Tailwind CSS
 
 ## Tech Stack
 
